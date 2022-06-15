@@ -5,3 +5,11 @@ This website has been made to generate random passwords depending on the choice 
 
 <img width="674" alt="screenshot" src="../password-generator/assets/images/Screen Shot 2022-06-15 at 4.20.56 PM.png">
 
+## Website Link:
+
+
+## It was created using: 
+
+* HTML
+* CSS
+* Javascript
