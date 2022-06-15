@@ -7,6 +7,7 @@ This website has been made to generate random passwords depending on the choice 
 
 ## Website Link:
 
+https://ehalimi.github.io/password-generator/
 
 ## It was created using: 
 
