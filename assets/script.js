@@ -31,8 +31,8 @@ function generatePassword() {
     };
   
   var upperCase = confirm("Do you want your password to include uppercase letters?");
-      upperCase = uppercaseArray.splice(Math.floor(Math.random() * uppercaseArray.length), InputLength);
-      upperCase = upperCase.join('').toString();
+    upperCase = uppercaseArray.splice(Math.floor(Math.random() * uppercaseArray.length), InputLength);
+    upperCase = upperCase.join('').toString();
 
   if (upperCase) {
     upperCase;
@@ -41,8 +41,8 @@ function generatePassword() {
   }
 
   var lowerCase = confirm("Do you want your password to include lowercase letters?");
-      lowerCase = lowercaseArray.splice(Math.floor(Math.random() * lowercaseArray.length), InputLength);
-      lowerCase = lowerCase.join('').toString();
+    lowerCase = lowercaseArray.splice(Math.floor(Math.random() * lowercaseArray.length), InputLength);
+    lowerCase = lowerCase.join('').toString();
 
   if (lowerCase) {
     lowerCase;
@@ -51,8 +51,8 @@ function generatePassword() {
   }
 
   var symbols = confirm("Do you want your password to include symbols?");
-      symbols = symbolsArray.splice(Math.floor(Math.random() * symbolsArray.length), InputLength);
-      symbols = symbols.join('').toString();
+    symbols = symbolsArray.splice(Math.floor(Math.random() * symbolsArray.length), InputLength);
+    symbols = symbols.join('').toString();
 
   if (symbols) {
     symbols;
@@ -61,8 +61,8 @@ function generatePassword() {
   }
 
   var numbers = confirm("Do you want your password to include numbers?");
-      numbers = numbersArray.splice(Math.floor(Math.random() * numbersArray.length), InputLength);
-      numbers = numbers.join('').toString();
+    numbers = numbersArray.splice(Math.floor(Math.random() * numbersArray.length), InputLength);
+    numbers = numbers.join('').toString();
 
   if (numbers) {
     numbers;
